@@ -1,0 +1,15 @@
+{
+  "entry": "client/dist/index.html",
+  "managedCronJobs": [
+    {
+      "action": "refreshRankings",
+      "args": {},
+      "id": "space-daily-rankings-refresh",
+      "schedule": "daily 09:00 Asia/Shanghai"
+    }
+  ],
+  "name": "前沿情报站",
+  "platformVersion": 26,
+  "runtime": "typescript",
+  "slug": "space"
+}
